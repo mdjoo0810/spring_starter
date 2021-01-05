@@ -1,0 +1,183 @@
+2021-01-05 11:33:52.421 INFO [StartupInfoLogger.logStarting:55] - Starting SpringStarterApplication on Stanui-MacBookAir.local with PID 67493 (/Users/stanjoo/Documents/own/spring_starter/build/classes/java/main started by stanjoo in /Users/stanjoo/Documents/own/spring_starter) 
+2021-01-05 11:33:52.429 INFO [SpringApplication.logStartupProfileInfo:655] - The following profiles are active: dev 
+2021-01-05 11:33:52.498 INFO [DeferredLog.logTo:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-01-05 11:33:52.498 INFO [DeferredLog.logTo:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-01-05 11:33:53.241 INFO [RepositoryConfigurationDelegate.registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-01-05 11:33:53.271 INFO [RepositoryConfigurationDelegate.registerRepositoriesIn:187] - Finished Spring Data repository scanning in 15ms. Found 0 JPA repository interfaces. 
+2021-01-05 11:33:53.899 INFO [TomcatWebServer.initialize:108] - Tomcat initialized with port(s): 8888 (http) 
+2021-01-05 11:33:53.908 INFO [DirectJDKLog.log:173] - Initializing ProtocolHandler ["http-nio-8888"] 
+2021-01-05 11:33:53.909 INFO [DirectJDKLog.log:173] - Starting service [Tomcat] 
+2021-01-05 11:33:53.909 INFO [DirectJDKLog.log:173] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2021-01-05 11:33:53.986 INFO [DirectJDKLog.log:173] - Initializing Spring embedded WebApplicationContext 
+2021-01-05 11:33:53.986 INFO [ServletWebServerApplicationContext.prepareWebApplicationContext:285] - Root WebApplicationContext: initialization completed in 1487 ms 
+2021-01-05 11:33:54.353 INFO [LogHelper.logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-01-05 11:33:54.398 INFO [Version.logVersion:44] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+2021-01-05 11:33:54.486 INFO [JavaReflectionManager.<clinit>:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-01-05 11:33:54.536 INFO [HikariDataSource.getConnection:110] - HikariPool-1 - Starting... 
+2021-01-05 11:33:54.614 INFO [HikariDataSource.getConnection:123] - HikariPool-1 - Start completed. 
+2021-01-05 11:33:54.627 INFO [Dialect.<init>:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect 
+2021-01-05 11:33:54.773 INFO [JtaPlatformInitiator.initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-01-05 11:33:54.778 INFO [AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:419] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-01-05 11:33:54.826 INFO [OptionalLiveReloadServer.startServer:58] - LiveReload server is running on port 35729 
+2021-01-05 11:33:54.999 INFO [ExecutorConfigurationSupport.initialize:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-01-05 11:33:55.188 INFO [UserDetailsServiceAutoConfiguration.getOrDeducePassword:86] - 
+
+Using generated security password: 31d3b4d4-46ce-4910-ae4a-7d6b7a63420b
+ 
+2021-01-05 11:33:55.252 INFO [DefaultSecurityFilterChain.<init>:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b206614, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e376a1e, org.springframework.security.web.header.HeaderWriterFilter@d86fae4, org.springframework.security.web.csrf.CsrfFilter@4e3fda01, org.springframework.security.web.authentication.logout.LogoutFilter@59f49173, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8a5cfee, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@34717bf5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@12f79813, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f39ce19, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@acd32c6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cd5ecf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57961510, org.springframework.security.web.session.SessionManagementFilter@1c1d416f, org.springframework.security.web.access.ExceptionTranslationFilter@3feb5e8f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@cc1af2e] 
+2021-01-05 11:33:55.296 INFO [DirectJDKLog.log:173] - Starting ProtocolHandler ["http-nio-8888"] 
+2021-01-05 11:33:55.329 INFO [TomcatWebServer.start:220] - Tomcat started on port(s): 8888 (http) with context path '' 
+2021-01-05 11:33:55.349 INFO [StartupInfoLogger.logStarted:61] - Started SpringStarterApplication in 3.613 seconds (JVM running for 4.492) 
+2021-01-05 11:34:03.536 INFO [ExecutorConfigurationSupport.shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-01-05 11:34:03.538 INFO [AbstractEntityManagerFactoryBean.destroy:601] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-01-05 11:34:03.545 INFO [HikariDataSource.close:350] - HikariPool-1 - Shutdown initiated... 
+2021-01-05 11:34:03.558 INFO [HikariDataSource.close:352] - HikariPool-1 - Shutdown completed. 
+2021-01-05 11:34:14.387 INFO [StartupInfoLogger.logStarting:55] - Starting SpringStarterApplication on Stanui-MacBookAir.local with PID 67527 (/Users/stanjoo/Documents/own/spring_starter/build/classes/java/main started by stanjoo in /Users/stanjoo/Documents/own/spring_starter) 
+2021-01-05 11:34:14.392 INFO [SpringApplication.logStartupProfileInfo:655] - The following profiles are active: dev 
+2021-01-05 11:34:14.446 INFO [DeferredLog.logTo:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-01-05 11:34:14.446 INFO [DeferredLog.logTo:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-01-05 11:34:15.111 INFO [RepositoryConfigurationDelegate.registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-01-05 11:34:15.135 INFO [RepositoryConfigurationDelegate.registerRepositoriesIn:187] - Finished Spring Data repository scanning in 11ms. Found 0 JPA repository interfaces. 
+2021-01-05 11:34:15.700 INFO [TomcatWebServer.initialize:108] - Tomcat initialized with port(s): 8888 (http) 
+2021-01-05 11:34:15.708 INFO [DirectJDKLog.log:173] - Initializing ProtocolHandler ["http-nio-8888"] 
+2021-01-05 11:34:15.708 INFO [DirectJDKLog.log:173] - Starting service [Tomcat] 
+2021-01-05 11:34:15.708 INFO [DirectJDKLog.log:173] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2021-01-05 11:34:15.772 INFO [DirectJDKLog.log:173] - Initializing Spring embedded WebApplicationContext 
+2021-01-05 11:34:15.772 INFO [ServletWebServerApplicationContext.prepareWebApplicationContext:285] - Root WebApplicationContext: initialization completed in 1325 ms 
+2021-01-05 11:34:16.033 INFO [LogHelper.logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-01-05 11:34:16.056 INFO [Version.logVersion:44] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+2021-01-05 11:34:16.124 INFO [JavaReflectionManager.<clinit>:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-01-05 11:34:16.169 INFO [HikariDataSource.getConnection:110] - HikariPool-1 - Starting... 
+2021-01-05 11:34:16.246 INFO [HikariDataSource.getConnection:123] - HikariPool-1 - Start completed. 
+2021-01-05 11:34:16.258 INFO [Dialect.<init>:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect 
+2021-01-05 11:34:16.406 INFO [JtaPlatformInitiator.initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-01-05 11:34:16.411 INFO [AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:419] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-01-05 11:34:16.447 INFO [OptionalLiveReloadServer.startServer:58] - LiveReload server is running on port 35729 
+2021-01-05 11:34:16.628 INFO [ExecutorConfigurationSupport.initialize:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-01-05 11:34:16.855 INFO [UserDetailsServiceAutoConfiguration.getOrDeducePassword:86] - 
+
+Using generated security password: 502d72cf-a4e3-45ca-a5f4-388f542c3ccd
+ 
+2021-01-05 11:34:16.914 INFO [DefaultSecurityFilterChain.<init>:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@576ceeac, org.springframework.security.web.context.SecurityContextPersistenceFilter@29b499c1, org.springframework.security.web.header.HeaderWriterFilter@55413c0a, org.springframework.security.web.csrf.CsrfFilter@3e1eb3be, org.springframework.security.web.authentication.logout.LogoutFilter@31b0fbf2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4aba0ca8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@d833df7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@76002540, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f542e64, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a42ed21, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62a22af1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e1fbde7, org.springframework.security.web.session.SessionManagementFilter@56127a2, org.springframework.security.web.access.ExceptionTranslationFilter@4500760e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ddc609b] 
+2021-01-05 11:34:16.953 INFO [DirectJDKLog.log:173] - Starting ProtocolHandler ["http-nio-8888"] 
+2021-01-05 11:34:16.974 INFO [TomcatWebServer.start:220] - Tomcat started on port(s): 8888 (http) with context path '' 
+2021-01-05 11:34:17.004 INFO [StartupInfoLogger.logStarted:61] - Started SpringStarterApplication in 3.16 seconds (JVM running for 4.569) 
+2021-01-05 11:55:46.860 INFO [ExecutorConfigurationSupport.shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-01-05 11:55:46.866 INFO [AbstractEntityManagerFactoryBean.destroy:601] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-01-05 11:55:46.887 INFO [HikariDataSource.close:350] - HikariPool-1 - Shutdown initiated... 
+2021-01-05 11:55:46.903 INFO [HikariDataSource.close:352] - HikariPool-1 - Shutdown completed. 
+2021-01-05 11:55:52.928 INFO [StartupInfoLogger.logStarting:55] - Starting SpringStarterApplication on Stanui-MacBookAir.local with PID 69537 (/Users/stanjoo/Documents/own/spring_starter/build/classes/java/main started by stanjoo in /Users/stanjoo/Documents/own/spring_starter) 
+2021-01-05 11:55:52.931 INFO [SpringApplication.logStartupProfileInfo:655] - The following profiles are active: dev 
+2021-01-05 11:55:52.999 INFO [DeferredLog.logTo:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-01-05 11:55:52.999 INFO [DeferredLog.logTo:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-01-05 11:55:53.698 INFO [RepositoryConfigurationDelegate.registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-01-05 11:55:53.730 INFO [RepositoryConfigurationDelegate.registerRepositoriesIn:187] - Finished Spring Data repository scanning in 26ms. Found 0 JPA repository interfaces. 
+2021-01-05 11:55:54.472 INFO [TomcatWebServer.initialize:108] - Tomcat initialized with port(s): 8888 (http) 
+2021-01-05 11:55:54.483 INFO [DirectJDKLog.log:173] - Initializing ProtocolHandler ["http-nio-8888"] 
+2021-01-05 11:55:54.484 INFO [DirectJDKLog.log:173] - Starting service [Tomcat] 
+2021-01-05 11:55:54.484 INFO [DirectJDKLog.log:173] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2021-01-05 11:55:54.594 INFO [DirectJDKLog.log:173] - Initializing Spring embedded WebApplicationContext 
+2021-01-05 11:55:54.594 INFO [ServletWebServerApplicationContext.prepareWebApplicationContext:285] - Root WebApplicationContext: initialization completed in 1594 ms 
+2021-01-05 11:55:54.907 INFO [LogHelper.logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-01-05 11:55:54.992 INFO [Version.logVersion:44] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+2021-01-05 11:55:55.181 INFO [JavaReflectionManager.<clinit>:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-01-05 11:55:55.228 INFO [HikariDataSource.getConnection:110] - HikariPool-1 - Starting... 
+2021-01-05 11:55:55.427 INFO [HikariDataSource.getConnection:123] - HikariPool-1 - Start completed. 
+2021-01-05 11:55:55.441 INFO [Dialect.<init>:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect 
+2021-01-05 11:55:55.604 INFO [JtaPlatformInitiator.initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-01-05 11:55:55.609 INFO [AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:419] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-01-05 11:55:55.659 INFO [OptionalLiveReloadServer.startServer:58] - LiveReload server is running on port 35729 
+2021-01-05 11:55:55.668 INFO [UserDetailsServiceAutoConfiguration.getOrDeducePassword:86] - 
+
+Using generated security password: 4562dd4a-506a-4f7d-8a34-f02f2920a2ce
+ 
+2021-01-05 11:55:55.899 INFO [ExecutorConfigurationSupport.initialize:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-01-05 11:55:56.154 INFO [DefaultSecurityFilterChain.<init>:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@531b65cb, org.springframework.security.web.context.SecurityContextPersistenceFilter@ed2377f, org.springframework.security.web.header.HeaderWriterFilter@233e106, org.springframework.security.web.csrf.CsrfFilter@5d0e630a, org.springframework.security.web.authentication.logout.LogoutFilter@391666c4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@23f898c1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@798928db, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6509cdb1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@653ce6bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21fa94f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3281f538, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57222d32, org.springframework.security.web.session.SessionManagementFilter@2be6a433, org.springframework.security.web.access.ExceptionTranslationFilter@305096e3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@d43ead5] 
+2021-01-05 11:55:56.194 INFO [DirectJDKLog.log:173] - Starting ProtocolHandler ["http-nio-8888"] 
+2021-01-05 11:55:56.214 INFO [TomcatWebServer.start:220] - Tomcat started on port(s): 8888 (http) with context path '' 
+2021-01-05 11:55:56.263 INFO [StartupInfoLogger.logStarted:61] - Started SpringStarterApplication in 3.879 seconds (JVM running for 4.916) 
+2021-01-05 12:01:18.884 INFO [ExecutorConfigurationSupport.shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-01-05 12:01:18.896 INFO [AbstractEntityManagerFactoryBean.destroy:601] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-01-05 12:01:18.911 INFO [HikariDataSource.close:350] - HikariPool-1 - Shutdown initiated... 
+2021-01-05 12:01:18.925 INFO [HikariDataSource.close:352] - HikariPool-1 - Shutdown completed. 
+2021-01-05 12:01:24.494 INFO [StartupInfoLogger.logStarting:55] - Starting SpringStarterApplication on Stanui-MacBookAir.local with PID 70062 (/Users/stanjoo/Documents/own/spring_starter/build/classes/java/main started by stanjoo in /Users/stanjoo/Documents/own/spring_starter) 
+2021-01-05 12:01:24.502 INFO [SpringApplication.logStartupProfileInfo:655] - The following profiles are active: dev 
+2021-01-05 12:01:24.564 INFO [DeferredLog.logTo:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-01-05 12:01:24.564 INFO [DeferredLog.logTo:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-01-05 12:01:25.331 INFO [RepositoryConfigurationDelegate.registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-01-05 12:01:25.357 INFO [RepositoryConfigurationDelegate.registerRepositoriesIn:187] - Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces. 
+2021-01-05 12:01:26.004 INFO [TomcatWebServer.initialize:108] - Tomcat initialized with port(s): 8888 (http) 
+2021-01-05 12:01:26.013 INFO [DirectJDKLog.log:173] - Initializing ProtocolHandler ["http-nio-8888"] 
+2021-01-05 12:01:26.014 INFO [DirectJDKLog.log:173] - Starting service [Tomcat] 
+2021-01-05 12:01:26.015 INFO [DirectJDKLog.log:173] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2021-01-05 12:01:26.155 INFO [DirectJDKLog.log:173] - Initializing Spring embedded WebApplicationContext 
+2021-01-05 12:01:26.157 INFO [ServletWebServerApplicationContext.prepareWebApplicationContext:285] - Root WebApplicationContext: initialization completed in 1592 ms 
+2021-01-05 12:01:26.364 INFO [LogHelper.logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-01-05 12:01:26.390 INFO [Version.logVersion:44] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+2021-01-05 12:01:26.486 INFO [JavaReflectionManager.<clinit>:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-01-05 12:01:26.530 INFO [HikariDataSource.getConnection:110] - HikariPool-1 - Starting... 
+2021-01-05 12:01:26.606 INFO [HikariDataSource.getConnection:123] - HikariPool-1 - Start completed. 
+2021-01-05 12:01:26.619 INFO [Dialect.<init>:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect 
+2021-01-05 12:01:26.758 INFO [JtaPlatformInitiator.initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-01-05 12:01:26.763 INFO [AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:419] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-01-05 12:01:26.806 INFO [OptionalLiveReloadServer.startServer:58] - LiveReload server is running on port 35729 
+2021-01-05 12:01:26.815 INFO [UserDetailsServiceAutoConfiguration.getOrDeducePassword:86] - 
+
+Using generated security password: d2ce903e-5437-4fe6-a500-e97227fdf7de
+ 
+2021-01-05 12:01:27.040 INFO [ExecutorConfigurationSupport.initialize:181] - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-01-05 12:01:27.291 INFO [DefaultSecurityFilterChain.<init>:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@362ab27e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bde5fa9, org.springframework.security.web.header.HeaderWriterFilter@162a5e88, org.springframework.security.web.csrf.CsrfFilter@734b68df, org.springframework.security.web.authentication.logout.LogoutFilter@4d728d19, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@60b17656, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6cd383b4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@20d4ff5a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1a4b4f6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70fe7c67, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fc2da49, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1aab4226, org.springframework.security.web.session.SessionManagementFilter@b334519, org.springframework.security.web.access.ExceptionTranslationFilter@2a983064, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a1328f2] 
+2021-01-05 12:01:27.329 INFO [DirectJDKLog.log:173] - Starting ProtocolHandler ["http-nio-8888"] 
+2021-01-05 12:01:27.349 INFO [TomcatWebServer.start:220] - Tomcat started on port(s): 8888 (http) with context path '' 
+2021-01-05 12:01:27.361 INFO [StartupInfoLogger.logStarted:61] - Started SpringStarterApplication in 3.491 seconds (JVM running for 4.699) 
+2021-01-05 12:12:54.287 INFO [ExecutorConfigurationSupport.shutdown:218] - Shutting down ExecutorService 'applicationTaskExecutor' 
+2021-01-05 12:12:54.293 INFO [AbstractEntityManagerFactoryBean.destroy:601] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-01-05 12:12:54.311 INFO [HikariDataSource.close:350] - HikariPool-1 - Shutdown initiated... 
+2021-01-05 12:12:54.326 INFO [HikariDataSource.close:352] - HikariPool-1 - Shutdown completed. 
+2021-01-05 12:12:59.479 INFO [StartupInfoLogger.logStarting:55] - Starting SpringStarterApplication on Stanui-MacBookAir.local with PID 71166 (/Users/stanjoo/Documents/own/spring_starter/build/classes/java/main started by stanjoo in /Users/stanjoo/Documents/own/spring_starter) 
+2021-01-05 12:12:59.486 INFO [SpringApplication.logStartupProfileInfo:655] - The following profiles are active: dev 
+2021-01-05 12:12:59.542 INFO [DeferredLog.logTo:225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-01-05 12:12:59.542 INFO [DeferredLog.logTo:225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-01-05 12:13:00.399 INFO [RepositoryConfigurationDelegate.registerRepositoriesIn:127] - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-01-05 12:13:00.436 INFO [RepositoryConfigurationDelegate.registerRepositoriesIn:187] - Finished Spring Data repository scanning in 23ms. Found 0 JPA repository interfaces. 
+2021-01-05 12:13:01.047 INFO [TomcatWebServer.initialize:108] - Tomcat initialized with port(s): 8888 (http) 
+2021-01-05 12:13:01.052 INFO [DirectJDKLog.log:173] - Initializing ProtocolHandler ["http-nio-8888"] 
+2021-01-05 12:13:01.053 INFO [DirectJDKLog.log:173] - Starting service [Tomcat] 
+2021-01-05 12:13:01.053 INFO [DirectJDKLog.log:173] - Starting Servlet engine: [Apache Tomcat/9.0.41] 
+2021-01-05 12:13:01.168 INFO [DirectJDKLog.log:173] - Initializing Spring embedded WebApplicationContext 
+2021-01-05 12:13:01.169 INFO [ServletWebServerApplicationContext.prepareWebApplicationContext:285] - Root WebApplicationContext: initialization completed in 1626 ms 
+2021-01-05 12:13:01.398 INFO [LogHelper.logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-01-05 12:13:01.422 INFO [Version.logVersion:44] - HHH000412: Hibernate ORM core version 5.4.25.Final 
+2021-01-05 12:13:01.487 INFO [JavaReflectionManager.<clinit>:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-01-05 12:13:01.532 INFO [HikariDataSource.getConnection:110] - HikariPool-1 - Starting... 
+2021-01-05 12:13:01.604 INFO [HikariDataSource.getConnection:123] - HikariPool-1 - Start completed. 
+2021-01-05 12:13:01.617 INFO [Dialect.<init>:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect 
+2021-01-05 12:13:01.759 INFO [JtaPlatformInitiator.initiateService:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-01-05 12:13:01.763 INFO [AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:419] - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-01-05 12:13:01.805 INFO [OptionalLiveReloadServer.startServer:58] - LiveReload server is running on port 35729 
+2021-01-05 12:13:01.817 WARN [AbstractApplicationContext.refresh:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration' defined in file [/Users/stanjoo/Documents/own/spring_starter/build/classes/java/main/kr/jmd/spring_starter/interfaces/config/SecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtTokenProvider' defined in file [/Users/stanjoo/Documents/own/spring_starter/build/classes/java/main/kr/jmd/spring_starter/interfaces/util/JwtTokenProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.core.userdetails.UserDetailsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {} 
+2021-01-05 12:13:01.817 INFO [AbstractEntityManagerFactoryBean.destroy:601] - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-01-05 12:13:01.822 INFO [HikariDataSource.close:350] - HikariPool-1 - Shutdown initiated... 
+2021-01-05 12:13:01.835 INFO [HikariDataSource.close:352] - HikariPool-1 - Shutdown completed. 
+2021-01-05 12:13:01.836 INFO [DirectJDKLog.log:173] - Stopping service [Tomcat] 
+2021-01-05 12:13:01.876 INFO [ConditionEvaluationReportLoggingListener.logMessage:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2021-01-05 12:13:01.964 ERROR [LoggingFailureAnalysisReporter.report:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in kr.jmd.spring_starter.interfaces.util.JwtTokenProvider required a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' that could not be found.
+
+The following candidates were found but could not be injected:
+	- Bean method 'inMemoryUserDetailsManager' in 'UserDetailsServiceAutoConfiguration' not loaded because @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManagerBean
+
+
+Action:
+
+Consider revisiting the entries above or defining a bean of type 'org.springframework.security.core.userdetails.UserDetailsService' in your configuration.
+ 
