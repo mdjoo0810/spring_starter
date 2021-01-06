@@ -7,3 +7,12 @@ userNotFound:
 usernameSignInFailed:
   code: "-1001"
   msg: "계정이 존재하지 않거나 전화번호 또는 비밀번호가 정확하지 않습니다."
+duplicatedUsername:
+  code: "-1003"
+  msg: "중복된 전화번호 입니다."
+entryPointException:
+  code: "-1004"
+  msg: "해당 리소스에 접근하기 위한 권한이 없습니다."
+accessDenied:
+  code: "-1005"
+  msg: "보유한 권한으로 접근할수 없는 리소스 입니다."

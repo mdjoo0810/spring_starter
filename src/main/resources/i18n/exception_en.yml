@@ -7,3 +7,12 @@ userNotFound:
 usernameSignInFailed:
   code: "-1001"
   msg: "Your account does not exist or your username or password is incorrect."
+duplicatedUsername:
+  code: "-1003"
+  msg: "Duplicated Username."
+entryPointException:
+  code: "-1004"
+  msg: "You do not have permission to access this resource."
+accessDenied:
+  code: "-1005"
+  msg: "A resource that can not be accessed with the privileges it has."
